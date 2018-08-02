@@ -1,13 +1,14 @@
 ﻿using System;
+using System.Threading.Tasks;
 using Humanizer;
 
 namespace RVNUG
 {
     class Program
     {
-        static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
-            string .WriteLine(timeTill2019);
+            await Console.Out.WriteLineAsync("This is awesome sauce!");
         }
     }
 }
